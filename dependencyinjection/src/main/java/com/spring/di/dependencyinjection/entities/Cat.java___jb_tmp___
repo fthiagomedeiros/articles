@@ -1,4 +1,0 @@
-package com.spring.di.dependencyinjection.entities;
-
-public class Cat {
-}
