@@ -11,7 +11,7 @@ public class ClientForAnimal {
     private Animal animal;
 
     @Autowired
-    public ClientForAnimal(@Qualifier("Dog") Animal animal) {
+    public ClientForAnimal(@Qualifier("Cat") Animal animal) {
         this.animal = animal;
     }
 

@@ -3,8 +3,8 @@ package com.spring.di.dependencyinjection.entities;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Qualifier("Dog")
 @Component
+@Qualifier("Dog")
 public class Dog implements Animal {
 
     @Override
